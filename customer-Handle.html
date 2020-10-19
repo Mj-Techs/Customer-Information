@@ -29,11 +29,11 @@
           const data = google.visualization.arrayToDataTable([
             //passing props value in  chart
             ["No Of Orders", "No of Customers", { role: "style" }],
-            ["1", props.data["1"], "color: blue"],
-            ["2", props.data["2"], "color: blue"],
-            ["3", props.data["3"], "color:blue"],
-            ["4", props.data["4"], "color:blue"],
-            ["5+", props.data["5+"], "color:blue"],
+            ["1", props.data["1"], "color: #605398"],
+            ["2", props.data["2"], "color: #605398"],
+            ["3", props.data["3"], "color:#605398"],
+            ["4", props.data["4"], "color:#605398"],
+            ["5+", props.data["5+"], "color:#605398"],
           ]);
 
           const view = new google.visualization.DataView(data);
@@ -42,8 +42,9 @@
             title: "Customer Distribution ",
             width: 500,
             height: 300,
-            backgroundColor: "skyblue",
-            bar: { groupWidth: "95%" },
+            fontSize: 25,
+            backgroundColor: "limegreen",
+            bar: { groupWidth: "50%" },
             legend: { position: "none" },
           };
           const chart = new google.visualization.ColumnChart(
