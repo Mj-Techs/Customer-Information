@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: lightskyblue;
+  background-color: white;
   font-family: sans-serif;
   text-align: center;
 }
@@ -11,6 +11,9 @@
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
+}
+button {
+  font-size: 1.5rem;
 }
 
 h2 {
@@ -54,4 +57,10 @@ table {
 #small_table {
   height: 19rem;
   margin-left: -20%;
+}
+h1 {
+  width: 100vw;
+  background-color: limegreen;
+  font-size: 3rem;
+  letter-spacing: 2.8px;
 }
